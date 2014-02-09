@@ -1,0 +1,155 @@
+body
+{
+	font-family:arial;
+	margin:0px;
+	padding:0px;
+}
+
+img
+{
+	border:0px;
+}
+
+.tabExercice td
+{
+	border-left:2px solid #283892;
+	border-top:2px solid #283892;
+}
+
+.tabExercice tr.derniereligne td
+{
+	border-bottom:2px solid #283892;
+}
+
+.tabExercice td.dernierecolonne
+{
+	border-right:2px solid #283892;
+}
+
+.mainContainer
+{
+	width:1000px;
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	vertical-align:top;
+}
+
+.menuContainer
+{
+	text-align:center;
+}
+
+.mainMenu
+{
+	
+}	
+
+#topBanner
+{
+	width:500px;
+	text-align:center;
+	padding-left:40px;
+	padding-top:10px;
+}
+
+.menuOff
+{
+	padding-right:20px;
+	padding-left:20px;
+	text-align:center;
+	vertical-align:middle;
+	color:#ffcc00;
+	background-image:url(../images/menu_off.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:130px;
+	height:46px;
+}
+
+.menuOn
+{
+	padding-right:20px;
+	padding-left:20px;
+	text-align:center;
+	vertical-align:middle;
+	color:#283892;
+	background-image:url(../images/menu_on.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:130px;
+	height:46px;
+	cursor:pointer;
+}
+
+.menuActive
+{
+	padding-right:20px;
+	padding-left:20px;
+	text-align:center;
+	vertical-align:middle;
+	color:#283892;
+	background-image:url(../images/menu_on.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:130px;
+	height:46px;
+}
+
+.mainContent
+{
+	width:260px;
+	height:300px;
+	padding-top:5px;
+	padding-left:20px;
+	padding-bottom:100px;
+}
+
+.newsContent
+{
+	width:340px;
+	height:389px;
+	vertical-align:top;
+	padding-top:15px;
+	background-position:center;
+	background-repeat:no-repeat;
+		
+}
+
+.newsImageContainer
+{
+	vertical-align:middle;
+	text-align: center;
+	padding-left:30px;
+}
+
+.newsTitle
+{
+	font-size: 30px;
+	color:#bf1e2d;
+	text-align:center;
+	padding-top:30px
+}
+
+.newsText
+{
+	font-size:18px;
+	font-family:arial;
+	font-style: italic;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:1px;
+}
+
+.textContent
+{
+	padding-left:80px;
+	padding-right:80px;
+	font-size: 14px;
+	color:#283892;
+	text-align:justify;
+}
+
+.imageContent
+{
+	padding-left:20px;
+}
